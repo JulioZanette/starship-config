@@ -4,9 +4,10 @@
 The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 https://starship.rs/
 
-
 ---
-Create starship.toml file
+For a full list of configurable parameters, checkout: https://starship.rs/config/
+
+**Create starship.toml file**
 
 ```
 cat > ~/.config/starship.bananinha <<EOF
