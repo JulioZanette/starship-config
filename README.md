@@ -1,7 +1,11 @@
 # starship-config
 
 <img src="https://starship.rs/logo.svg" width="500">
+The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+https://starship.rs/
 
+
+---
 Create starship.toml file
 
 ```
