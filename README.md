@@ -1,5 +1,7 @@
 # starship-config
 
+> Sample file for Starship Shell config.
+
 <img src="https://starship.rs/logo.svg" width="500">
 The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 https://starship.rs/
@@ -10,7 +12,7 @@ For a full list of configurable parameters, checkout: https://starship.rs/config
 **Create starship.toml file**
 
 ```
-cat > ~/.config/starship.bananinha <<EOF
+cat > ~/.config/starship.toml <<EOF
 # Don't print a new line at the start of the prompt
 # add_newline = false
 
@@ -57,5 +59,12 @@ show_always = true
 
 [helm]
 disabled = true
->EOF
+EOF
 ```
+
+The above configuration will loocks like:
+
+![image](https://user-images.githubusercontent.com/60859142/115117571-300d7b00-9f97-11eb-8ef6-c530c03c9bce.png)
+
+Remember to Install a "Nerd Font"
+(for example, try the Fira Code Nerd Font (https://www.nerdfonts.com/font-downloads)).
